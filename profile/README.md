@@ -1,4 +1,4 @@
-<a href="https://github.com/pocketcontext-labs/pocketcontext"><img src="https://raw.githubusercontent.com/pocketcontext-labs/.github/main/profile/assets/social-card.png" alt="PocketContext. Give your agent a second brain. Your knowledge. Connected. Under your control." width="1200" /></a>
+<a href="https://www.pocketcontext.com/"><img src="https://raw.githubusercontent.com/pocketcontext-labs/.github/main/profile/assets/social-card.png" alt="PocketContext. Give your agent a second brain. Your knowledge. Connected. Under your control." width="1200" /></a>
 
 Give your agent a second brain. PocketContext is a local knowledge base in one program — a server, a browser reader and a command-line client for macOS, Linux and Windows. Your agent brings in your notes as sources, connects them into pages that cite their evidence, and answers from what you already know. You choose the machine: your own computer, or alongside an always-on agent.
 
@@ -18,6 +18,6 @@ Version 0.6.0 ingests UTF-8 text only. PocketContext is not an AI model: your ag
 
 ## Get started
 
-Ask an agent that can run commands to follow the [0.6.0 README](https://github.com/pocketcontext-labs/pocketcontext/blob/v0.6.0/README.md): it installs the binary, creates a project and installs the skill. Downloads and release notes are on the [0.6.0 release page](https://github.com/pocketcontext-labs/pocketcontext/releases/tag/v0.6.0); the [data model](https://github.com/pocketcontext-labs/pocketcontext/blob/v0.6.0/docs/data-model.md) covers the details. For questions and contributions, use the [issue tracker](https://github.com/pocketcontext-labs/pocketcontext/issues).
+The [PocketContext website](https://www.pocketcontext.com/) has copyable setup prompts for your own computer or an always-on agent computer, and a short guide. Or ask an agent that can run commands to follow the [0.6.0 README](https://github.com/pocketcontext-labs/pocketcontext/blob/v0.6.0/README.md): it installs the binary, creates a project and installs the skill. Downloads and release notes are on the [0.6.0 release page](https://github.com/pocketcontext-labs/pocketcontext/releases/tag/v0.6.0); the [data model](https://github.com/pocketcontext-labs/pocketcontext/blob/v0.6.0/docs/data-model.md) covers the details. For questions and contributions, use the [issue tracker](https://github.com/pocketcontext-labs/pocketcontext/issues).
 
-[PocketContext for business](https://business.pocketcontext.com/) · [LinkedIn](https://www.linkedin.com/company/pocketcontext)
+[Website](https://www.pocketcontext.com/) · [PocketContext for business](https://business.pocketcontext.com/) · [LinkedIn](https://www.linkedin.com/company/pocketcontext)
