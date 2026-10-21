@@ -14,10 +14,10 @@ Give your agent a second brain. PocketContext is a local knowledge base in one p
 - **Works with the tools you already use.** Your agent brings text from Notion, Obsidian, Gmail, Jira and others through its own authorized tools. PocketContext has no built-in connectors.
 - **Stays yours.** One server with authenticated clients, and a project folder you can back up: a SQLite database, a storage folder and a configuration file.
 
-Version 0.4.1 ingests UTF-8 text only. PocketContext is not an AI model: your agent supplies the reasoning, scheduling and access to other services.
+Version 0.6.0 ingests UTF-8 text only. PocketContext is not an AI model: your agent supplies the reasoning, scheduling and access to other services.
 
 ## Get started
 
-Ask an agent that can run commands to follow the [0.4.1 README](https://github.com/pocketcontext-labs/pocketcontext/blob/v0.4.1/README.md): it installs the binary, creates a project and installs the skill. Downloads and release notes are on the [0.4.1 release page](https://github.com/pocketcontext-labs/pocketcontext/releases/tag/v0.4.1); the [data model](https://github.com/pocketcontext-labs/pocketcontext/blob/v0.4.1/docs/data-model.md) covers the details. For questions and contributions, use the [issue tracker](https://github.com/pocketcontext-labs/pocketcontext/issues).
+Ask an agent that can run commands to follow the [0.6.0 README](https://github.com/pocketcontext-labs/pocketcontext/blob/v0.6.0/README.md): it installs the binary, creates a project and installs the skill. Downloads and release notes are on the [0.6.0 release page](https://github.com/pocketcontext-labs/pocketcontext/releases/tag/v0.6.0); the [data model](https://github.com/pocketcontext-labs/pocketcontext/blob/v0.6.0/docs/data-model.md) covers the details. For questions and contributions, use the [issue tracker](https://github.com/pocketcontext-labs/pocketcontext/issues).
 
-[PocketContext for business](https://www.pocketcontext.com/) · [LinkedIn](https://www.linkedin.com/company/pocketcontext)
+[PocketContext for business](https://business.pocketcontext.com/) · [LinkedIn](https://www.linkedin.com/company/pocketcontext)
