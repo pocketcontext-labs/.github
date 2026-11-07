@@ -7,8 +7,9 @@ Give your agent a second brain. PocketContext is a local knowledge base in one p
 | Project | What it provides |
 | --- | --- |
 | [PocketContext](https://github.com/pocketcontext-labs/pocketcontext) | The knowledge base: immutable sources (text notes, and PDFs, images or audio your agent converts to text), Markdown pages with structured properties and citations, full revision history, authenticated search and SQL reads, and an installable skill for Claude Code, Codex and Antigravity. |
+| [PocketContext Crew](https://github.com/pocketcontext-labs/pocketcontext-crew) | A self-hosted workspace for one person's AI team: versioned Markdown memory, a shared task board and human review through one authenticated MCP connection. |
 
-## What it does
+## PocketContext
 
 - **Answers with sources.** Pages keep their citations and revision history, so you can see how a page developed and what supports it.
 - **Works with the tools you already use.** Your agent brings text from Notion, Obsidian, Gmail, Jira and others through its own authorized tools. PocketContext has no built-in connectors.
@@ -22,8 +23,18 @@ Give your agent a second brain. PocketContext is a local knowledge base in one p
 
 Version 0.24.0 stores any file but extracts only UTF-8 text itself: your agent converts PDFs, images and audio, and PocketContext marks that text as derived evidence. PocketContext is not an AI model: your agent supplies the reasoning, scheduling and access to other services. Since 0.12.0 an optional helper in the repository imports an existing Obsidian collection as pages, keeping the original files as sources. The program lives in the project folder, and its installers ask you to name that folder. Projects from 0.11.x onward open without data conversion. Like every release since 0.11.0, it does not open databases created by 0.10.0 or earlier and has no upgrade path: export what you need with the earlier release and start a new project.
 
-## Get started
+### Get started
 
 The [PocketContext website](https://www.pocketcontext.com/) has a setup prompt that asks whether to create a knowledge base here or connect to one elsewhere, and a guide that includes MCP client setup. Or ask an agent that can run commands to follow the [0.24.0 README](https://github.com/pocketcontext-labs/pocketcontext/blob/v0.24.0/README.md): it installs the binary into the project folder you name, creates a project and installs the skill. Downloads and release notes are on the [0.24.0 release page](https://github.com/pocketcontext-labs/pocketcontext/releases/tag/v0.24.0); the [data model](https://github.com/pocketcontext-labs/pocketcontext/blob/v0.24.0/docs/data-model.md) covers the details. For questions and contributions, use the [issue tracker](https://github.com/pocketcontext-labs/pocketcontext/issues).
+
+## PocketContext Crew
+
+Crew brings shared memory, tasks and human review together for one person's AI team. Memory buckets hold Markdown notes with revision history and restoration. An AI Team board tracks assignments, comments and drafts, while a review inbox lets the owner decide on exact draft versions. Archive and restore preserve history.
+
+Your agents run in external tools and connect through one authenticated MCP endpoint. You review drafts and perform external actions yourself; approval does not publish anything or complete a task. Bucket responsibility is a working convention, with shared access for connected agents.
+
+### Get started
+
+Crew is a separate, single-owner product you self-host with a new project database. There is no public signup service. See the [Crew overview](https://www.pocketcontext.com/crew), then follow the [0.1.1 native Linux installation guide](https://github.com/pocketcontext-labs/pocketcontext-crew/blob/v0.1.1/docs/native-install.md) or the [Docker Compose alternative](https://github.com/pocketcontext-labs/pocketcontext-crew/blob/v0.1.1/docs/install.md). The [0.1.1 README](https://github.com/pocketcontext-labs/pocketcontext-crew/blob/v0.1.1/README.md) covers connecting your agents and current limitations. For questions and contributions, use the [Crew issue tracker](https://github.com/pocketcontext-labs/pocketcontext-crew/issues).
 
 [Website](https://www.pocketcontext.com/) · [PocketContext for business](https://business.pocketcontext.com/) · [LinkedIn](https://www.linkedin.com/company/pocketcontext)
