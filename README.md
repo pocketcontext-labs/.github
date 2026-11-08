@@ -4,7 +4,7 @@
 `profile/assets/social-card.png` is the social card used by that profile, copied from `pocketcontext-website/public/social-card.png`.
 `profile/assets/logo.png` is the organization avatar, rendered at 512×512 from `pocketcontext-website/public/logo.svg`.
 
-Keep the overview concise and consistent with the product website. Pin each product's claims and setup links to its own release: currently PocketContext 0.24.0 and PocketContext Crew 0.7.0. Link to each product's repository for technical setup and current limitations; do not describe unreleased working-tree changes as released features.
+Keep the overview concise and consistent with the product website. Pin each product's claims and setup links to its own release: currently PocketContext 0.24.0 and PocketContext Crew 0.8.0. Link to each product's repository for technical setup and current limitations; do not describe unreleased working-tree changes as released features.
 
 Present Crew as a separate, single-owner, self-hosted workspace for shared agent memory, tasks and human review. External tools run the agents, and the owner performs external actions. Link to https://www.pocketcontext.com/crew for its overview and the Crew repository for installation, not to an existing owner's instance as a public signup service.
 
