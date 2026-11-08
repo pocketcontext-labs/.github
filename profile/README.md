@@ -9,7 +9,7 @@ PocketContext is a stack for made-to-measure applications. One prompt becomes on
 | Project | Release | What it provides |
 | --- | --- | --- |
 | [pocketcontext-core](https://github.com/pocketcontext-labs/pocketcontext-core) | [0.1.3](https://github.com/pocketcontext-labs/pocketcontext-core/tree/v0.1.3) | The infrastructure decisions, as a shared Go library: one-binary server, sync-safe SQLite, native HTTPS, remote MCP with OAuth and a private tunnel. MIT licensed. |
-| [pocketcontext-template](https://github.com/pocketcontext-labs/pocketcontext-template) | [0.3.0](https://github.com/pocketcontext-labs/pocketcontext-template/releases/tag/v0.3.0) | A complete working app that your coding agent renames and reshapes around your data model, then proves with its own checks. |
+| [pocketcontext-template](https://github.com/pocketcontext-labs/pocketcontext-template) | [0.4.0](https://github.com/pocketcontext-labs/pocketcontext-template/releases/tag/v0.4.0) | A complete working app that your coding agent renames and reshapes around your data model, then proves with its own checks. |
 | [PocketContext Crew](https://github.com/pocketcontext-labs/pocketcontext-crew) | [0.9.0](https://github.com/pocketcontext-labs/pocketcontext-crew/releases/tag/v0.9.0) | A workplace for your AI team: shared memory, a task board and your final say. |
 | [PocketContext Atlas](https://github.com/pocketcontext-labs/pocketcontext-atlas) | [0.25.0](https://github.com/pocketcontext-labs/pocketcontext-atlas/releases/tag/v0.25.0) | A knowledge base where every claim cites its evidence. Formerly PocketContext. |
 
@@ -20,7 +20,7 @@ A custom app should be only your business logic. The questions that eat the firs
 Operations fit on a sticky note: an executable and a file with your data, plus a storage folder if you upload files. To back up, stop the app and copy the folder.
 
 - **No domain?** Run it on your computer and reach it from your others through the built-in private tunnel.
-- **Want it online?** Atlas and Crew serve native HTTPS with automatic certificates on a domain you control. Apps made from the template start private, and going public is a deliberate step using Core.
+- **Want it online?** Atlas, Crew and apps made from the template serve native HTTPS with automatic certificates on a domain you control. Template apps start private, and going public is one explicit command limited to the collections you list.
 
 ## Built for agents
 
