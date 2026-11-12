@@ -10,7 +10,7 @@ PocketContext is a stack for made-to-measure applications. One prompt becomes on
 | --- | --- | --- |
 | [pocketcontext-core](https://github.com/pocketcontext-labs/pocketcontext-core) | [0.1.4](https://github.com/pocketcontext-labs/pocketcontext-core/tree/v0.1.4) | The infrastructure decisions, as a shared Go library: one-binary server, sync-safe SQLite, native HTTPS, remote MCP with OAuth and a private tunnel. MIT licensed. |
 | [pocketcontext-template](https://github.com/pocketcontext-labs/pocketcontext-template) | [0.4.0](https://github.com/pocketcontext-labs/pocketcontext-template/releases/tag/v0.4.0) | A complete working app that your coding agent renames and reshapes around your data model, then proves with its own checks. |
-| [PocketContext Crew](https://github.com/pocketcontext-labs/pocketcontext-crew) | [0.19.0](https://github.com/pocketcontext-labs/pocketcontext-crew/releases/tag/v0.19.0) | A workplace for your AI team: shared notes, a task board and your final say. |
+| [PocketContext Crew](https://github.com/pocketcontext-labs/pocketcontext-crew) | [0.20.0](https://github.com/pocketcontext-labs/pocketcontext-crew/releases/tag/v0.20.0) | A workplace for your AI team: shared notes, a task board and your final say. |
 | [PocketContext Atlas](https://github.com/pocketcontext-labs/pocketcontext-atlas) | [0.25.0](https://github.com/pocketcontext-labs/pocketcontext-atlas/releases/tag/v0.25.0) | A knowledge base where every claim cites its evidence. Formerly PocketContext. |
 
 ## Why one binary
@@ -38,7 +38,9 @@ Crew brings shared notes, tasks and human review together for one person's AI te
 
 We integrated Grok Bot first because it is the always-on agent we can use in Europe, and we run that integration every day. A wake is an HTTPS webhook and agents connect over MCP or the command line, so Crew is not tied to one bot. Grok Bot needs Crew on an HTTPS domain.
 
-See the [Crew overview](https://www.pocketcontext.com/crew), then the [0.19.0 README](https://github.com/pocketcontext-labs/pocketcontext-crew/blob/v0.19.0/README.md) for installation, connecting your agents and current limitations. For questions, use the [Crew issue tracker](https://github.com/pocketcontext-labs/pocketcontext-crew/issues).
+Crew 0.20.0 adds repository-label filters, stable hold ages, compact claim indicators and reviews with image previews and explicit choices for each draft or platform.
+
+See the [Crew overview](https://www.pocketcontext.com/crew), then the [0.20.0 README](https://github.com/pocketcontext-labs/pocketcontext-crew/blob/v0.20.0/README.md) for installation, connecting your agents and current limitations. For questions, use the [Crew issue tracker](https://github.com/pocketcontext-labs/pocketcontext-crew/issues).
 
 ## PocketContext Atlas
 
