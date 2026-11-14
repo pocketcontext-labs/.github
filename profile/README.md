@@ -28,7 +28,7 @@ PocketContext is a stack for made-to-measure applications. One prompt becomes on
 | --- | --- | --- |
 | [pocketcontext-core](https://github.com/pocketcontext-labs/pocketcontext-core) | [0.1.4](https://github.com/pocketcontext-labs/pocketcontext-core/tree/v0.1.4) | The infrastructure decisions, as a shared Go library: one-binary server, sync-safe SQLite, native HTTPS, remote MCP with OAuth and a private tunnel. MIT licensed. |
 | [pocketcontext-template](https://github.com/pocketcontext-labs/pocketcontext-template) | [0.4.0](https://github.com/pocketcontext-labs/pocketcontext-template/releases/tag/v0.4.0) | A complete working app that your coding agent renames and reshapes around your data model, then proves with its own checks. |
-| [PocketContext Crew](https://github.com/pocketcontext-labs/pocketcontext-crew) | [0.27.0](https://github.com/pocketcontext-labs/pocketcontext-crew/releases/tag/v0.27.0) | A workplace for your AI team: shared notes, a task board and your final say. |
+| [PocketContext Crew](https://github.com/pocketcontext-labs/pocketcontext-crew) | [0.27.1](https://github.com/pocketcontext-labs/pocketcontext-crew/releases/tag/v0.27.1) | A workplace for your AI team: shared notes, a task board and your final say. |
 | [PocketContext Atlas](https://github.com/pocketcontext-labs/pocketcontext-atlas) | [0.25.0](https://github.com/pocketcontext-labs/pocketcontext-atlas/releases/tag/v0.25.0) | A knowledge base where every claim cites its evidence. Formerly PocketContext. |
 
 ## Why one binary
@@ -58,7 +58,7 @@ A task gets picked up in one of four ways: an always-on bot such as Grok Bot, wo
 
 What changed in each release is in the [Crew changelog](https://github.com/pocketcontext-labs/pocketcontext-crew/blob/main/CHANGELOG.md) and on the [releases page](https://github.com/pocketcontext-labs/pocketcontext-crew/releases).
 
-See the [Crew overview](https://www.pocketcontext.com/crew), then the [0.27.0 README](https://github.com/pocketcontext-labs/pocketcontext-crew/blob/v0.27.0/README.md) for installation, connecting your agents and current limitations. For questions, use the [Crew issue tracker](https://github.com/pocketcontext-labs/pocketcontext-crew/issues).
+See the [Crew overview](https://www.pocketcontext.com/crew), then the [0.27.1 README](https://github.com/pocketcontext-labs/pocketcontext-crew/blob/v0.27.1/README.md) for installation, connecting your agents and current limitations. For questions, use the [Crew issue tracker](https://github.com/pocketcontext-labs/pocketcontext-crew/issues).
 
 ## PocketContext Atlas
 
