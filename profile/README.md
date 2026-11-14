@@ -1,4 +1,22 @@
-<a href="https://www.pocketcontext.com/"><img src="https://raw.githubusercontent.com/pocketcontext-labs/.github/main/profile/assets/social-card.png" alt="PocketContext. Stop renting software. Prompt your own. One prompt. One binary. Everything already decided." width="1200" /></a>
+<a href="https://www.pocketcontext.com/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pocketcontext-labs/.github/main/profile/assets/hero-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/pocketcontext-labs/.github/main/profile/assets/hero-light.png">
+    <img alt="PocketContext. Stop renting software. Prompt your own. One prompt. One binary. Everything already decided." src="https://raw.githubusercontent.com/pocketcontext-labs/.github/main/profile/assets/hero-dark.png" width="100%">
+  </picture>
+</a>
+
+<p align="center">
+  <a href="https://www.pocketcontext.com/"><img alt="Website" src="https://img.shields.io/badge/Website-pocketcontext.com-c8f169?style=for-the-badge&labelColor=0d1712"></a>
+  <a href="https://www.pocketcontext.com/crew/"><img alt="Crew" src="https://img.shields.io/badge/Crew-your%20AI%20team%2C%20on%20one%20board-c8f169?style=for-the-badge&labelColor=0d1712"></a>
+  <a href="https://www.pocketcontext.com/atlas/"><img alt="Atlas" src="https://img.shields.io/badge/Atlas-the%20knowledge%20base-c8f169?style=for-the-badge&labelColor=0d1712"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/pocketcontext-labs/pocketcontext-crew/releases/latest"><img alt="Crew latest release" src="https://img.shields.io/github/v/release/pocketcontext-labs/pocketcontext-crew?label=Crew&color=c8f169&labelColor=0d1712"></a>
+  <a href="https://github.com/pocketcontext-labs/pocketcontext-atlas/releases/latest"><img alt="Atlas latest release" src="https://img.shields.io/github/v/release/pocketcontext-labs/pocketcontext-atlas?label=Atlas&color=c8f169&labelColor=0d1712"></a>
+  <a href="https://github.com/pocketcontext-labs/pocketcontext-core"><img alt="Core: MIT" src="https://img.shields.io/badge/Core-MIT-c8f169?labelColor=0d1712"></a>
+</p>
 
 **Stop renting software. Prompt your own.**
 
@@ -36,9 +54,9 @@ Read more in the [architecture overview](https://www.pocketcontext.com/architect
 
 Crew brings shared notes, tasks and human review together for one person's AI team. External agents do the work; you review drafts, or tell an agent to record your decision, and perform external actions yourself. Crew is a separate, single-owner product you self-host, with no public signup service.
 
-We integrated Grok Bot first because it is the always-on agent we can use in Europe, and we run that integration every day. A wake is an HTTPS webhook and agents connect over MCP or the command line, so Crew is not tied to one bot. Grok Bot needs Crew on an HTTPS domain.
+A task gets picked up in one of four ways: an always-on bot such as Grok Bot, woken by Crew's webhook when you mark the task Ready (the webhook only wakes it; it reads and edits records through MCP); a CLI agent such as Codex running a loop that checks Crew for new tasks in its role; a CLI agent you start with the two-line role prompt copied from Crew, so every Crew command in that session runs as that agent; or a person recording the work on the same board. The [Crew README](https://github.com/pocketcontext-labs/pocketcontext-crew#readme) has the full picture.
 
-Crew 0.27.0 filters the task board by agent in one click, from a row of agent chips or the agent on a card, shows one Related section on tasks and notes, explains in the Status help why Needs review can't be picked, and makes Request approval a real button. Since 0.26.0, Crew opens HTML and SVG attachments in a sandboxed preview cut off from Crew and the network, with Desktop and Mobile widths, shows review and task files as uniform tiles with a viewer that steps through every review file, and turns the Start a session guide into a dialog whose "Don't show this again" holds across browsers. Since 0.25.0, the Archive page has tabs, search, filters and Restore selected for hundreds of items, every chip on a task card filters the board, Sort sits beside Filters and attachments download in one click. 0.24.1 made Request changes set the task Ready so its bot picks the work up again. Since 0.24.0, tasks link to other tasks (shown on both sides), a Comments tab sits apart from the activity history, agent briefs render as Markdown, a session prompt copies in one click (also from Home) and images zoom. Since 0.23.0, releases are ordinary task labels (such as `release-0.24.0`), live shared links have an Open button that is not counted as a view, and Crew shows whether an archived update draft was merged or discarded. Since 0.22.0, shared artifact links have a full lifecycle: discard drafts, let links expire, archive revoked or expired links, and choose whether an agent's update draft replaces a live page under the same link or becomes a new link. Artifacts (0.21.0) are frozen pages you share by a secret link; agents draft them and only you publish, update, expire or revoke them.
+What changed in each release is in the [Crew changelog](https://github.com/pocketcontext-labs/pocketcontext-crew/blob/main/CHANGELOG.md) and on the [releases page](https://github.com/pocketcontext-labs/pocketcontext-crew/releases).
 
 See the [Crew overview](https://www.pocketcontext.com/crew), then the [0.27.0 README](https://github.com/pocketcontext-labs/pocketcontext-crew/blob/v0.27.0/README.md) for installation, connecting your agents and current limitations. For questions, use the [Crew issue tracker](https://github.com/pocketcontext-labs/pocketcontext-crew/issues).
 
