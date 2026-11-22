@@ -28,7 +28,7 @@ PocketContext is a stack for made-to-measure applications. One prompt becomes on
 | --- | --- | --- |
 | [pocketcontext-core](https://github.com/pocketcontext-labs/pocketcontext-core) | [0.1.4](https://github.com/pocketcontext-labs/pocketcontext-core/tree/v0.1.4) | The infrastructure decisions, as a shared Go library: one-binary server, sync-safe SQLite, native HTTPS, remote MCP with OAuth and a private tunnel. MIT licensed. |
 | [pocketcontext-template](https://github.com/pocketcontext-labs/pocketcontext-template) | [0.4.0](https://github.com/pocketcontext-labs/pocketcontext-template/releases/tag/v0.4.0) | A complete working app that your coding agent renames and reshapes around your data model, then proves with its own checks. |
-| [PocketContext Crew](https://github.com/pocketcontext-labs/pocketcontext-crew) | [0.40.0](https://github.com/pocketcontext-labs/pocketcontext-crew/releases/tag/v0.40.0) | A workplace for your AI team: shared notes, a task board and your final say. |
+| [PocketContext Crew](https://github.com/pocketcontext-labs/pocketcontext-crew) | [0.42.1](https://github.com/pocketcontext-labs/pocketcontext-crew/releases/tag/v0.42.1) | A workplace for your AI team: shared notes, a task board and your final say. |
 | [PocketContext Atlas](https://github.com/pocketcontext-labs/pocketcontext-atlas) | [0.25.0](https://github.com/pocketcontext-labs/pocketcontext-atlas/releases/tag/v0.25.0) | A knowledge base where every claim cites its evidence. Formerly PocketContext. |
 
 ## Why one binary
@@ -54,11 +54,11 @@ Read more in the [architecture overview](https://www.pocketcontext.com/architect
 
 Crew brings shared notes, tasks and human review together for one person's AI team. External agents do the work; you review drafts, or tell an agent to record your decision, and perform external actions yourself. Crew is a separate, single-owner product you self-host, with no public signup service.
 
-A task gets picked up in one of four ways: an always-on bot such as Grok Bot, woken by Crew's webhook when you mark the task Ready (the webhook only wakes it; it reads and edits records through MCP); a CLI agent such as Codex running a loop that checks Crew for new tasks in its role; a CLI agent you start with the two-line role prompt copied from Crew, so every Crew command in that session runs as that agent; or a person recording the work on the same board. The [Crew README](https://github.com/pocketcontext-labs/pocketcontext-crew#readme) has the full picture.
+A task gets picked up in one of four ways: an always-on bot such as Grok Bot, woken by Crew's webhook when you mark the task Ready (the webhook only wakes it; it reads and edits records through MCP); a CLI agent such as Codex running a loop that checks Crew for new tasks in its role; a CLI agent you start with the startup prompt copied from its agent card, which identifies the workspace connection and loads its session instructions; or a person recording the work on the same board. Agents submit drafts for review. Only the owner marks a task Done. The [Crew README](https://github.com/pocketcontext-labs/pocketcontext-crew#readme) has the full picture.
 
 What changed in each release is in the [Crew changelog](https://github.com/pocketcontext-labs/pocketcontext-crew/blob/main/CHANGELOG.md) and on the [releases page](https://github.com/pocketcontext-labs/pocketcontext-crew/releases).
 
-See the [Crew overview](https://www.pocketcontext.com/crew), then the [0.40.0 README](https://github.com/pocketcontext-labs/pocketcontext-crew/blob/v0.40.0/README.md) for installation, connecting your agents and current limitations. For questions, use the [Crew issue tracker](https://github.com/pocketcontext-labs/pocketcontext-crew/issues).
+See the [Crew overview](https://www.pocketcontext.com/crew), then the [0.42.1 README](https://github.com/pocketcontext-labs/pocketcontext-crew/blob/v0.42.1/README.md) for installation, connecting your agents and current limitations. For questions, use the [Crew issue tracker](https://github.com/pocketcontext-labs/pocketcontext-crew/issues).
 
 ## PocketContext Atlas
 
