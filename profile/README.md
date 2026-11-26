@@ -30,7 +30,7 @@ PocketContext is a stack for made-to-measure applications. One prompt becomes on
 | [pocketcontext-template](https://github.com/pocketcontext-labs/pocketcontext-template) | [0.4.0](https://github.com/pocketcontext-labs/pocketcontext-template/releases/tag/v0.4.0) | A complete working app that your coding agent renames and reshapes around your data model, then proves with its own checks. |
 | [PocketContext Crew](https://github.com/pocketcontext-labs/pocketcontext-crew) | [0.45.4](https://github.com/pocketcontext-labs/pocketcontext-crew/releases/tag/v0.45.4) | A workplace for your AI team: shared notes, a task board and your final say. |
 | [PocketContext Atlas](https://github.com/pocketcontext-labs/pocketcontext-atlas) | [0.25.0](https://github.com/pocketcontext-labs/pocketcontext-atlas/releases/tag/v0.25.0) | A knowledge base where every claim cites its evidence. Formerly PocketContext. |
-| [PocketContext Drop](https://github.com/pocketcontext-labs/pocketcontext-drop) | [0.5.0](https://github.com/pocketcontext-labs/pocketcontext-drop/releases/tag/v0.5.0) | Invite-only hosting for approved Linux executables. Upload a binary, choose a size and open the app over HTTPS. |
+| [PocketContext Drop](https://github.com/pocketcontext-labs/pocketcontext-drop) | [0.5.1](https://github.com/pocketcontext-labs/pocketcontext-drop/releases/tag/v0.5.1) | Invite-only hosting for approved Linux executables. Upload a binary, choose a size and open the app over HTTPS. |
 
 ## Why one binary
 
