@@ -30,7 +30,7 @@ PocketContext is a stack for made-to-measure applications. One prompt becomes on
 | [pocketcontext-template](https://github.com/pocketcontext-labs/pocketcontext-template) | [0.4.0](https://github.com/pocketcontext-labs/pocketcontext-template/releases/tag/v0.4.0) | A complete working app that your coding agent renames and reshapes around your data model, then proves with its own checks. |
 | [PocketContext Crew](https://github.com/pocketcontext-labs/pocketcontext-crew) | [0.45.4](https://github.com/pocketcontext-labs/pocketcontext-crew/releases/tag/v0.45.4) | A workplace for your AI team: shared notes, a task board and your final say. |
 | [PocketContext Atlas](https://github.com/pocketcontext-labs/pocketcontext-atlas) | [0.25.0](https://github.com/pocketcontext-labs/pocketcontext-atlas/releases/tag/v0.25.0) | A knowledge base where every claim cites its evidence. Formerly PocketContext. |
-| [PocketContext Drop](https://github.com/pocketcontext-labs/pocketcontext-drop) | [0.8.0](https://github.com/pocketcontext-labs/pocketcontext-drop/releases/tag/v0.8.0) | Invite-only hosting for Linux apps. This release adds archive imports, prefilled deploy links for PocketBase and ZeroClaw, and cleanup status after app deletion. |
+| [PocketContext Drop](https://github.com/pocketcontext-labs/pocketcontext-drop) | [0.9.0](https://github.com/pocketcontext-labs/pocketcontext-drop/releases/tag/v0.9.0) | Invite-only Crew and Atlas workspaces with shared credits, resource sizing and owner-selected upgrades. |
 
 ## Why one binary
 
